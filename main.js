@@ -1,11 +1,6 @@
-alert('Teste');
+//TEMPLATE LITERALS
 
-class Teste {
-    metodo(){
+const nome = "Johannes";
+const idade = 40;
 
-    }
-
-    outro(){
-        
-    }
-}
+console.log('Meu nome é' + nome + ' e tenho ' + idade + ' anos');

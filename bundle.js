@@ -1,27 +1,8 @@
 "use strict";
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+//TEMPLATE LITERALS
+var nome = "Johannes";
+var idade = 40;
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-alert('Teste');
-
-var Teste =
-/*#__PURE__*/
-function () {
-  function Teste() {
-    _classCallCheck(this, Teste);
-  }
-
-  _createClass(Teste, [{
-    key: "metodo",
-    value: function metodo() {}
-  }, {
-    key: "outro",
-    value: function outro() {}
-  }]);
-
-  return Teste;
-}();
+//console.log('Meu nome é' + nome + ' e tenho ' + idade + ' anos.');
+console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
