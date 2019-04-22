@@ -1,6 +1,10 @@
-//TEMPLATE LITERALS
+//WEB PACK
+//import { soma as somaFuncion, sub } from './functions';
+import * as functions from './functions'; //importando tudo
+//import soma from './soma';
 
-const nome = "Johannes";
-const idade = 40;
-
-console.log('Meu nome é' + nome + ' e tenho ' + idade + ' anos');
+//console.log(somaFuncion(1, 2));
+//console.log(functions.sub(4, 2));
+console.log(functions.soma(1, 2));
+console.log(functions.sub(4, 2));
+//console.log(functions);
